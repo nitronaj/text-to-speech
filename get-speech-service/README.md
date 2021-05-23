@@ -99,7 +99,7 @@ CLOUD_RUN_REGION=<REGION>
 
 2. Set gcloud project and additional variables:
 ```
-glcoud config set project ${PROJECT_ID}
+gcloud config set project ${PROJECT_ID}
 PROJECT_NUMBER=$(gcloud projects describe ${PROJECT_ID} --format="value(projectNumber)")
 ```
 
